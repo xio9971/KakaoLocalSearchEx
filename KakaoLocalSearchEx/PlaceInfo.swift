@@ -9,9 +9,11 @@ import Foundation
 
 struct PlaceInfo: Decodable {
     
-    let addressName: String
-    let placeName: String
-    let roadAdressName: String
-    let longitudeX: Double
-    let latitudeY: Double
+    var addressName: String
+    var placeName: String
+    var roadAdressName: String
+    var longitudeX: Double
+    var latitudeY: Double
+
 }
+

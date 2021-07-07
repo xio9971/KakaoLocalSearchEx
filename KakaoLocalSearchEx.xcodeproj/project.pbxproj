@@ -290,6 +290,7 @@
 		980B8BB7268EB7FA0098711A /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 980B8AA6268EB7F80098711A /* jquery.js */; };
 		980B8BB8268EB7FA0098711A /* changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 980B8AA7268EB7F80098711A /* changelog.txt */; };
 		980B8BBB268ECBBD0098711A /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980B89B4268EB7F70098711A /* DaumMap.framework */; };
+		9870E1FF2692E91200113500 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9870E1FE2692E91200113500 /* DataManager.swift */; };
 		98CA2EDF268E97A8000DFEA1 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA2EDE268E97A8000DFEA1 /* PlaceTableViewCell.swift */; };
 		98EA269E268C4B7600C6420A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA269D268C4B7600C6420A /* AppDelegate.swift */; };
 		98EA26A0268C4B7600C6420A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA269F268C4B7600C6420A /* SceneDelegate.swift */; };
@@ -297,7 +298,10 @@
 		98EA26A5268C4B7600C6420A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EA26A3268C4B7600C6420A /* Main.storyboard */; };
 		98EA26A7268C4B7600C6420A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EA26A6268C4B7600C6420A /* Assets.xcassets */; };
 		98EA26AA268C4B7600C6420A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EA26A8268C4B7600C6420A /* LaunchScreen.storyboard */; };
+		98EA39702693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98EA396E2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodeld */; };
 		98EA77CD268C5782004601D4 /* PlaceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA77CC268C5782004601D4 /* PlaceInfo.swift */; };
+		98EC8F122693CE9700175705 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC8F112693CE9700175705 /* AlertUtil.swift */; };
+		98EC8F14269411D200175705 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC8F13269411D200175705 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -593,6 +597,7 @@
 		980B8AA6268EB7F80098711A /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		980B8AA7268EB7F80098711A /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
 		980B8BBA268EB8C40098711A /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		9870E1FE2692E91200113500 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		98CA2EDE268E97A8000DFEA1 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		98EA269A268C4B7600C6420A /* KakaoLocalSearchEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoLocalSearchEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EA269D268C4B7600C6420A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -602,7 +607,10 @@
 		98EA26A6268C4B7600C6420A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EA26A9268C4B7600C6420A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98EA26AB268C4B7600C6420A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EA396F2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KakaoLocalSearchEx.xcdatamodel; sourceTree = "<group>"; };
 		98EA77CC268C5782004601D4 /* PlaceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInfo.swift; sourceTree = "<group>"; };
+		98EC8F112693CE9700175705 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
+		98EC8F13269411D200175705 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E4C12FD61EC9ED06FC615F32 /* Pods_KakaoLocalSearchEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoLocalSearchEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1004,6 +1012,14 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		9870E1FD2692E8D300113500 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9870E1FE2692E91200113500 /* DataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		98EA2691268C4B7500C6420A = {
 			isa = PBXGroup;
 			children = (
@@ -1025,17 +1041,21 @@
 		98EA269C268C4B7600C6420A /* KakaoLocalSearchEx */ = {
 			isa = PBXGroup;
 			children = (
+				9870E1FD2692E8D300113500 /* CoreData */,
 				980B8BB9268EB8A90098711A /* Header */,
 				98EA269D268C4B7600C6420A /* AppDelegate.swift */,
 				98EA269F268C4B7600C6420A /* SceneDelegate.swift */,
 				98EA26A1268C4B7600C6420A /* ViewController.swift */,
 				980B8977268EAFCA0098711A /* SelectLocationViewController.swift */,
+				98EC8F13269411D200175705 /* MapViewController.swift */,
 				98EA77CC268C5782004601D4 /* PlaceInfo.swift */,
 				98CA2EDE268E97A8000DFEA1 /* PlaceTableViewCell.swift */,
+				98EC8F112693CE9700175705 /* AlertUtil.swift */,
 				98EA26A3268C4B7600C6420A /* Main.storyboard */,
 				98EA26A6268C4B7600C6420A /* Assets.xcassets */,
 				98EA26A8268C4B7600C6420A /* LaunchScreen.storyboard */,
 				98EA26AB268C4B7600C6420A /* Info.plist */,
+				98EA396E2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodeld */,
 			);
 			path = KakaoLocalSearchEx;
 			sourceTree = "<group>";
@@ -1426,11 +1446,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9870E1FF2692E91200113500 /* DataManager.swift in Sources */,
 				98EA26A2268C4B7600C6420A /* ViewController.swift in Sources */,
+				98EA39702693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodeld in Sources */,
+				98EC8F14269411D200175705 /* MapViewController.swift in Sources */,
 				98EA269E268C4B7600C6420A /* AppDelegate.swift in Sources */,
 				98EA26A0268C4B7600C6420A /* SceneDelegate.swift in Sources */,
 				98EA77CD268C5782004601D4 /* PlaceInfo.swift in Sources */,
 				98CA2EDF268E97A8000DFEA1 /* PlaceTableViewCell.swift in Sources */,
+				98EC8F122693CE9700175705 /* AlertUtil.swift in Sources */,
 				980B8978268EAFCA0098711A /* SelectLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1647,6 +1671,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98EA396E2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98EA396F2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodel */,
+			);
+			currentVersion = 98EA396F2693CAB400A2F11E /* KakaoLocalSearchEx.xcdatamodel */;
+			path = KakaoLocalSearchEx.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 98EA2692268C4B7500C6420A /* Project object */;
 }
